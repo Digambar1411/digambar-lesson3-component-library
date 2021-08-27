@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+ 
+    <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <h2>Digambar's  component library </h2>
 
-    <p>Hi am Digambar learning web development with neog camp. I am creating this component library to design the portfolio. 
+<body>
+
+    <!-- #00BF76"  hero-->
+    <!-- #50DBB4 hero 1 -->
+    <!-- #35BDD0 Image-color hero2 -->
+    <!-- #03203C hero 3 -->
+   
+    <h2>Digambar's component library </h2>
+
+    <p>Hi am Digambar learning web development with tanay neog camp. I am creating this component library to design the
+        portfolio.
         <br><br> After creating component library i am going to use this components to design my portfolio</p>
     <hr>
 
@@ -20,7 +31,7 @@
     <h4>This is heading 4</h4>
     <h5> This is heading 5</h5>
     <h6> This is heading 6</h6>
-    <small>This is small text</small> 
+    <small>This is small text</small>
     <i>This is etalic text</i>
     <strong>This is bold text</strong>
     <p>This is the normal text</p>
@@ -28,70 +39,73 @@
 
 
     <h2>@containers</h2>
-    <dev fluid container>This is the fluid container it will go till full width of the page </dev>
-    <dev center container>This will be at the center it will go till specfied width</dev>
-    
+    <h3>fluid container</h3>
+    <div class="container-fluid">This is the fluid container it will go till full width of the page </div>
+    <h3> @center container</h3>
+    <div class="container">
+        This will be at the center it will go till specified width </div>
+
+    <hr>
+
     <h2>@Links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a  class= "link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
     <h2>@List</h2>
-    <h3>unordered list</h3>
+    <h3 >Unordered list</h3>
     <ul>
         <li>item 1</li>
         <li>item 2</li>
         <li>item 3</li>
     </ul>
-    
-    <h3>unrdered inline list</h3>
-    <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ol>
 
-    <h3> reverse order list with diff type</h3>
-    <ol type ="a">
+    <h3 >Unordered inline list</h3>
+    <ul class="list-non-bullets ">
+        <li class="list-item-inline" >item 1</li>
+        <li class="list-item-inline">item 2</li>
+        <li class="list-item-inline">item 3</li>
+    </ul>
+
+    <h3 > reverse order  list with diff type</h3>
+    <ol reversed>
         <li>milk</li>
         <li>shugar</li>
         <li>tea</li>
     </ol>
 
-    <h3> @ Navaigation </h3>
-    <nav>
+    <hr>
+
+    <h3 > @ Navaigation </h3>
+    <nav class="navigation">
 
         <div>I AM LEARNER </div>
-        <ul>
-            <li>
-                <a href= "/">Home</a>
-            </li>
-            
-            <li>
-                <a href= "/">Project</a>
+        <ul class="list-non-bullets nav-link">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
 
-            <li>
-                <a href="/">Blog</a>
+            <li class="list-item-inline">
+                <a class="link"  href="/">Project</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/"> Blog</a>
             </li>
         </ul>
 
-        <ul>
-            <li>
-                <a href= "/">Home</a>
-                <a href="/">Blog</a>
-                <a href= "/">Project</a>
-            </li>
-         </ul>   
-    
+        
+
     </nav>
 
     <hr>
-    <h3>@Header</h3>
 
-   
-    <header> 
-        <img src="Images/hero.svg" />
+        <!-- <h3 style="background-color:#00BF76">@Head </h3> -->
+        <h3 style="background-color:#538FFB">@Header</h3>
+        <!-- <h3 style="background-color:#35BDD0">@Head 2<h3>     -->
+
+    <header >
+        <img src="/Images/hero4.svg" />
         <h1>Heading inside header</h1>
     </header>
 
@@ -107,7 +121,7 @@
     <section>
         <h4>offwhite section</h4>
         <p>this will have gray background</p>
-        
+
     </section>
 
     <hr>
@@ -122,4 +136,5 @@
     </ul>
 
 </body>
+
 </html>
