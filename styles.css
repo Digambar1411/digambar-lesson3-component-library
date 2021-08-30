@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 
 body{
   
     font-family: 'Montserrat', sans-serif;
+    margin: 00px;
 }
 
 hr{
@@ -11,7 +12,12 @@ hr{
 :root{
     /* --primary-color:#50DBB4; */
     /* --primary-color:#03203C; */
-    --primary-color:#538FFB;
+    /* --primary-color:#538FFB; */
+    /* this id for hero 5 */
+    --primary-color:#547795;
+    --dark-gray:#9CA3AF;
+    --off-white:#E5E7EB;
+    ;
 }
 
 /* containers */
@@ -47,8 +53,6 @@ hr{
     border-radius: 0.5rem;
     color: var(--primary-color);
 
-    
-
 }
 /* List */
 
@@ -62,16 +66,16 @@ hr{
 }
 
 /* nav */
-
 .navigation{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
 }
 
 .navigation .link{
     color: white;
-  
 }
 
 .navigation .nav-link{
@@ -81,3 +85,55 @@ hr{
 .navigation .link-active{
     font-weight:bold;
 }
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+}
+
+.hero-heading .inverted{
+    color: var(--primary-color);
+}
+
+/* sections */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link{
+    color:white;
+}
+
+/* .footer ul{
+    padding-inline-end:0px;
+    
+} */
