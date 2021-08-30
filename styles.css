@@ -23,15 +23,15 @@ hr{
 /* containers */
 
 .container {
-    margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 1000px;
+   
 }
 
-.container-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.container-center{
+    margin: auto;
+    max-width: 600px;
+
 }
 
 /* Links */
@@ -41,10 +41,16 @@ hr{
     padding: 0.5rem 1rem;
 
 }
+
+.link:hover{
+    opacity: 0.8;
+}
 .link-primary{
     background-color:  var(--primary-color);
-    border-radius: 00.5rem;
+    border-radius: 0.5rem;
     color: white;
+    margin-left: 0.8rem;
+    margin-right: 0.5rem;
    
 }
 
@@ -52,6 +58,8 @@ hr{
     border: 1px solid;
     border-radius: 0.5rem;
     color: var(--primary-color);
+    margin-left: 0.5rem;
+    margin-right: 0.8rem;
 
 }
 /* List */
@@ -62,7 +70,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0.5rem 0rem;
 }
 
 /* nav */
@@ -92,6 +100,7 @@ hr{
 
 .hero{
     padding: 2rem;
+    
 }
 
 .hero .hero-img{
@@ -102,10 +111,13 @@ hr{
 
 .hero .hero-heading{
     color: var(--dark-gray);
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .hero-heading .inverted{
     color: var(--primary-color);
+    text-align: center;
 }
 
 /* sections */
@@ -123,17 +135,46 @@ hr{
 /* footer */
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem;
+    /* padding:0.5rem 0.5rem;
     color: white;
     border-top-right-radius: 1rem;
+    text-align: center; */
+
+    padding: 2rem 1rem;
     text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 }
 
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+
+}
 .footer .link{
     color:white;
 }
 
-/* .footer ul{
-    padding-inline-end:0px;
+.footer ul{
+    padding-inline-start:0px;
     
-} */
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* social icons */
+
+.social-icon{
+    
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 1;
+}
+
+.social-icon:hover {
+    opacity: 0.9;
+}
+
+
